@@ -11,6 +11,13 @@
 
 si usas esto es k estas burlao
 
+## Modules
+
+| №  | Module                                                            | Description                                                                    |
+|----|-------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 1  | Spawner Guard | When a player is detected nearby, it will automatically mine all your spawners with baritone, then disconnect (useful for servers like DonutSMP). |
+
+
 # Installation
 
 For building this project on windows just do
@@ -18,11 +25,9 @@ For building this project on windows just do
 .\gradlew.bat build
 ```
 
-
 # Contribute
 
 Feel free to suggest new modules or report bugs.
-
 
 # License
 
