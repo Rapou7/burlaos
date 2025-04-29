@@ -1,8 +1,6 @@
-package com.example.addon;
+package com.rapou.burlaos;
 
-import com.example.addon.commands.CommandExample;
-import com.example.addon.hud.HudExample;
-import com.example.addon.modules.ModuleExample;
+import com.rapou.burlaos.modules.SpawnerGuard;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -13,23 +11,16 @@ import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
 
-public class AddonTemplate extends MeteorAddon {
+public class burlaos extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("Example");
-    public static final HudGroup HUD_GROUP = new HudGroup("Example");
+    public static final Category CATEGORY = new Category("burlaos");
 
     @Override
     public void onInitialize() {
         LOG.info("Initializing Meteor Addon Template");
 
         // Modules
-        Modules.get().add(new ModuleExample());
-
-        // Commands
-        Commands.add(new CommandExample());
-
-        // HUD
-        Hud.get().register(HudExample.INFO);
+        Modules.get().add(new SpawnerGuard());
     }
 
     @Override
@@ -39,7 +30,7 @@ public class AddonTemplate extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "com.rapou.burlaos";
     }
 
     @Override

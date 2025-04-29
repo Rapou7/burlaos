@@ -1,27 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "burlaos",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "burlaos",
+  "description": "si usas esto es k estas burlao",
   "authors": [
-    "seasnail"
+    "rapou7"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/Rapou7"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.rapou.burlaos.burlaos"
     ]
   },
-  "mixins": [
-    "addon-template.mixins.json"
-  ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "53,110,148"
   },
   "depends": {
     "java": ">=21",

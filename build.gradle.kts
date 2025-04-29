@@ -27,6 +27,9 @@ dependencies {
 
     // Meteor
     modImplementation("meteordevelopment:meteor-client:${properties["minecraft_version"] as String}-SNAPSHOT")
+
+    // Baritone (https://github.com/MeteorDevelopment/baritone)
+    modCompileOnly("meteordevelopment:baritone:${properties["baritone_version"] as String}-SNAPSHOT")
 }
 
 tasks {
