@@ -10,7 +10,7 @@
   "contact": {
     "repo": "https://github.com/Rapou7"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/burlaos/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [

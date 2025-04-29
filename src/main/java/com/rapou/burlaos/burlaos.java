@@ -17,7 +17,7 @@ public class burlaos extends MeteorAddon {
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing Meteor Addon Template");
+        LOG.info("Initializing burlaos");
 
         // Modules
         Modules.get().add(new SpawnerGuard());
