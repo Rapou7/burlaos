@@ -23,12 +23,12 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
-      - name: Release
-        uses: marvinpinto/action-automatic-releases@latest
-        with:
-          repo_token: '${{ secrets.GITHUB_TOKEN }}'
-          automatic_release_tag: snapshot
-          prerelease: true
-          title: Dev Build
-          files: |
-            ./build/libs/*.jar
+     # - name: Release
+     #   uses: marvinpinto/action-automatic-releases@latest
+     #   with:
+     #     repo_token: '${{ secrets.GITHUB_TOKEN }}'
+     #     automatic_release_tag: snapshot
+     #     prerelease: true
+     #     title: Dev Build
+     #     files: |
+     #       ./build/libs/*.jar
