@@ -25,6 +25,25 @@ public class SpawnerGuard extends Module {
 
     private boolean triggered = false;
 
+    private boolean isBaritonePresent() { //checks if baritone is installed
+        try {
+            Class.forName("baritone.api.BaritoneAPI");
+            return true;
+        } catch (ClassNotFoundException e) {
+            return false;
+        }
+    }
+
+    public void onActivate() { //deactivates module if baritone isnt found
+        if (!isBaritonePresent()) {
+            if (mc.player != null) {
+                mc.player.sendMessage(Text.of("§cinstalate el baritone primo"), false);
+            }
+            toggle();
+            return;
+        }
+    }
+
     @EventHandler
     private void onTick(TickEvent.Post event) {
         if (mc.player == null || mc.world == null || triggered) return; //checks that the player and the world is loaded and if it was already triggered
@@ -47,7 +66,7 @@ public class SpawnerGuard extends Module {
                     }
                     
                     mc.execute(() -> {
-                        mc.player.networkHandler.getConnection().disconnect(Text.of("por poco"));
+                        mc.player.networkHandler.getConnection().disconnect(Text.of("por poco bro"));
                         toggle(); // disable module after disconnecting
                         triggered = false;
                     });
