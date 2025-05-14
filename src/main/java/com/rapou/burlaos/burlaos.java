@@ -3,6 +3,7 @@ package com.rapou.burlaos;
 import com.rapou.burlaos.gui.hud.PlayerRadarPlus;
 import com.rapou.burlaos.gui.hud.TotemIndicator;
 import com.rapou.burlaos.modules.SpawnerGuard;
+import com.rapou.burlaos.modules.AntiAim;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -23,6 +24,7 @@ public class burlaos extends MeteorAddon {
 
         // Modules
         Modules.get().add(new SpawnerGuard());
+        Modules.get().add(new AntiAim());
         
         // HUD
         Hud.get().register(TotemIndicator.INFO);
