@@ -1,4 +1,3 @@
-
 ![el puto dudu](https://github.com/Rapou7/burlaos/blob/master/src/main/resources/assets/burlaos/icon.png?raw=true)
 
 # burlaos
@@ -16,7 +15,14 @@ si usas esto es k estas burlao
 | №  | Module                                                            | Description                                                                    |
 |----|-------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | 1  | Spawner Guard | When a player is detected nearby, it will automatically mine all your spawners with baritone, then disconnect (useful for servers like DonutSMP). |
+| 2  | Anti-Aim | Advanced head rotation manipulation that includes spinning, jitter, and target-based movement to avoid being hit. Features bow/crossbow handling and wall detection. |
 
+## HUD
+
+| №  | Module                                                            | Description                                                                    |
+|----|-------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 1  | Player Radar+ | Displays nearby players as dots on a radar |
+| 2  | Totem Indicator | Shows whether you have a totem in your main hand or offhand with indicators ("SAFE" / "DANGER") |
 
 # Installation
 
