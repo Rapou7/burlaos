@@ -16,6 +16,9 @@ si usas esto es k estas burlao
 |----|-------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | 1  | Spawner Guard | When a player is detected nearby, it will automatically mine all your spawners with baritone, then disconnect (useful for servers like DonutSMP). |
 | 2  | Anti-Aim | Advanced head rotation manipulation that includes spinning, jitter, and target-based movement to avoid being hit. Features bow/crossbow handling and wall detection. |
+| 3  | Aspect Ratio | Allows you to change the game's aspect ratio. (Ported from [LiquidBounce](https://github.com/CCBlueX/LiquidBounce)) |
+| 4  | DamageParticles | Shows damage done to entities. (Ported from [LiquidBounce](https://github.com/CCBlueX/LiquidBounce)) |
+| 5  | JumpEffect | Adds customizable visual effects when jumping. (Ported from [LiquidBounce](https://github.com/CCBlueX/LiquidBounce)) |
 
 ## HUD
 
@@ -26,7 +29,16 @@ si usas esto es k estas burlao
 
 # Installation
 
-For building this project on windows just do
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Rapou7/burlaos?include_prereleases&label=Download%20Latest%20Release&style=for-the-badge)](https://github.com/Rapou7/burlaos/releases/latest)
+
+1. Install [Meteor Client](https://meteorclient.com/) if you haven't already
+2. Download the latest release of burlaos from the button above
+3. Place the downloaded .jar file in your `.minecraft/mods` folder
+4. Launch Minecraft with Fabric and Meteor Client installed
+
+# Building
+
+For building this project on Windows:
 ```shell
 .\gradlew.bat build
 ```
