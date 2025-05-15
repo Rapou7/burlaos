@@ -17,6 +17,9 @@
       "com.rapou.burlaos.burlaos"
     ]
   },
+  "mixins": [
+    "burlaos.mixins.json"
+  ],
   "custom": {
     "meteor-client:color": "53,110,148"
   },

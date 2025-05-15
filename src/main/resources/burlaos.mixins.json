@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.rapou.burlaos.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "ParticleManagerMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+} 
