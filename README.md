@@ -2,11 +2,8 @@
 
 # burlaos
 
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Rapou7/burlaos?include_prereleases)](https://github.com/Rapou7/burlaos/releases)
 [![Total downloads](https://img.shields.io/github/downloads/Rapou7/burlaos/total?include_prereleases)](https://github.com/Rapou7/burlaos/releases)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Rapou7/burlaos)](https://github.com/Rapou7/burlaos/commits/master)
-[![GitHub issues](https://img.shields.io/github/issues-raw/Rapou7/burlaos)](https://github.com/Rapou7/burlaos/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/Rapou7/burlaos)](https://github.com/Rapou7/burlaos/pulls)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Rapou7/burlaos?include_prereleases)](https://github.com/Rapou7/burlaos/releases)
 [![GitHub](https://img.shields.io/github/license/Rapou7/burlaos)](https://github.com/Rapou7/burlaos/blob/master/LICENSE)
 
 si usas esto es k estas burlao
@@ -30,7 +27,7 @@ si usas esto es k estas burlao
 
 # Installation
 
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Rapou7/burlaos?include_prereleases&label=Download%20Latest%20Release&style=for-the-badge)](https://github.com/Rapou7/burlaos/releases/latest)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Rapou7/burlaos?include_prereleases&label=Download%20Latest%20Release&style=for-the-badge)](https://github.com/Rapou7/burlaos/releases)
 
 1. Install [Meteor Client](https://meteorclient.com/) if you haven't already
 2. Download the latest release of burlaos from the button above
