@@ -2,11 +2,12 @@
 
 # burlaos
 
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Rapou7/burlaos?include_prereleases)](https://img.shields.io/github/v/release/Rapou7/burlaos?include_prereleases)
-[![GitHub last commit](https://img.shields.io/github/last-commit/Rapou7/burlaos)](https://img.shields.io/github/last-commit/Rapou7/burlaos)
-[![GitHub issues](https://img.shields.io/github/issues-raw/Rapou7/burlaos)](https://img.shields.io/github/issues-raw/Rapou7/burlaos)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/Rapou7/burlaos)](https://img.shields.io/github/issues-pr/Rapou7/burlaos)
-[![GitHub](https://img.shields.io/github/license/Rapou7/burlaos)](https://img.shields.io/github/license/Rapou7/burlaos)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Rapou7/burlaos?include_prereleases)](https://github.com/Rapou7/burlaos/releases)
+[![Total downloads](https://img.shields.io/github/downloads/Rapou7/burlaos/total?include_prereleases)](https://github.com/Rapou7/burlaos/releases)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Rapou7/burlaos)](https://github.com/Rapou7/burlaos/commits/master)
+[![GitHub issues](https://img.shields.io/github/issues-raw/Rapou7/burlaos)](https://github.com/Rapou7/burlaos/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Rapou7/burlaos)](https://github.com/Rapou7/burlaos/pulls)
+[![GitHub](https://img.shields.io/github/license/Rapou7/burlaos)](https://github.com/Rapou7/burlaos/blob/master/LICENSE)
 
 si usas esto es k estas burlao
 
@@ -50,4 +51,3 @@ Feel free to suggest new modules or report bugs.
 # License
 
 This template is available under the [GPL-3.0 License](./LICENSE)
-
